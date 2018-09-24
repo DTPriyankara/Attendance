@@ -56,4 +56,9 @@ public class AdminPanelActivity extends AppCompatActivity {
         Intent intent = new Intent(this, AdminPanelCourseActivity.class);
         startActivity(intent);
     }
+
+    @Override
+    public void onBackPressed(){
+
+    }
 }
