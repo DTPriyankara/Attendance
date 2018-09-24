@@ -19,5 +19,6 @@
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_admin_panel_lecture">AdminPanelLectureActivity</string>
     <string name="title_activity_admin_panel_course">AdminPanelCourseActivity</string>
+    <string name="title_activity_admin_panel1">ADMIN PANEL</string>
 
 </resources>
