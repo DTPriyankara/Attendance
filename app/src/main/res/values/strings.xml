@@ -20,5 +20,11 @@
     <string name="title_activity_admin_panel_lecture">AdminPanelLectureActivity</string>
     <string name="title_activity_admin_panel_course">AdminPanelCourseActivity</string>
     <string name="title_activity_admin_panel1">ADMIN PANEL</string>
+    <string name="registration_no">Registration No</string>
+    <string name="name">Name</string>
+
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
 
 </resources>
