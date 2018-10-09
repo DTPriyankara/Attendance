@@ -18,13 +18,15 @@ public class LoginMain extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openAdminPanel();
+                loginview();
             }
         });
 
     }
-    public void openAdminPanel() {
-        Intent intent = new Intent(this, AdminPanelActivity.class);
+    public void loginview() {
+        Intent intent = new Intent(this, LoginViewActivity.class);
         startActivity(intent);
     }
+
+
 }

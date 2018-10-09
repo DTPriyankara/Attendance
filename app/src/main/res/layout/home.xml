@@ -9,46 +9,71 @@
     android:background="#19aee1"
     tools:context=".HomeActivity">
 
-    <TextView
-        android:id="@+id/Tv_Logo"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="108dp"
-        android:fontFamily="serif-monospace"
-        android:text="WELCOME"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="#d1ec69"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        app:fontFamily="@font/belgrano" />
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_centerInParent="true">
 
-    <ImageView
-        android:id="@+id/imageView_logo"
-        android:layout_width="220dp"
-        android:layout_height="221dp"
-        android:layout_centerInParent="true"
-        android:contentDescription="@string/todo"
-        app:srcCompat="@drawable/uoj_logo" />
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp">
+            <TextView
+                android:id="@+id/Tv_Logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WELCOME"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#d1ec69"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/belgrano" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp">
+            <ImageView
+                android:id="@+id/imageView_logo"
+                android:layout_width="220dp"
+                android:layout_height="221dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/uoj_logo" />
+        </android.support.design.widget.TextInputLayout>
 
 
-    <TextView
-        android:id="@+id/Tv_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="107dp"
-        android:fontFamily="serif-monospace"
-        android:text="UNIVERSITY OF JAFFNA"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="#d1ec69"
-        android:textSize="15dp"
-        android:textStyle="bold"
-        app:fontFamily="@font/belgrano" />
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_uoj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp">
+            <TextView
+                android:id="@+id/Tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UNIVERSITY OF JAFFNA"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#d1ec69"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/belgrano" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
 </RelativeLayout>

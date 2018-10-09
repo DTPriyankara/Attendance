@@ -107,7 +107,7 @@
         <Button android:id="@+id/btn_complete"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="COMPLETE"
+            android:text="SUBMIT"
             android:background="#2f42ba"
             android:layout_marginTop="40dp"
             android:textColor="@android:color/white"
