@@ -23,7 +23,7 @@ public class AdminPanelActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openAdminPanelStudent();
+                openStudentActivity();
             }
         });
 
@@ -32,7 +32,7 @@ public class AdminPanelActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openAdminPanelLecture();
+                openLectureActivity();
             }
         });
 
@@ -41,7 +41,7 @@ public class AdminPanelActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openAdminPanelCourse();
+                openCourseActivity();
             }
         });
 
@@ -54,17 +54,17 @@ public class AdminPanelActivity extends AppCompatActivity {
 
 
     }
-    public void openAdminPanelStudent() {
-        Intent intent = new Intent(this, AdminPanelStudentActivity.class);
+    public void openStudentActivity() {
+        Intent intent = new Intent(this, StudentActivity.class);
         startActivity(intent);
     }
 
-    public void openAdminPanelLecture() {
-        Intent intent = new Intent(this, AdminPanelLectureActivity.class);
+    public void openLectureActivity() {
+        Intent intent = new Intent(this, LectureActivity.class);
         startActivity(intent);
     }
-    public void openAdminPanelCourse() {
-        Intent intent = new Intent(this, AdminPanelCourseActivity.class);
+    public void openCourseActivity() {
+        Intent intent = new Intent(this, CourseActivity.class);
         startActivity(intent);
     }
 

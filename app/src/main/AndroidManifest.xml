@@ -15,18 +15,6 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity
-            android:name=".AdminPanelStudentActivity"
-            android:label="@string/title_activity_admin_panel_student"
-            android:theme="@style/AppTheme" />
-        <activity
-            android:name=".AdminPanelLectureActivity"
-            android:label="@string/title_activity_admin_panel_lecture"
-            android:theme="@style/AppTheme" />
-        <activity
-            android:name=".AdminPanelCourseActivity"
-            android:label="@string/title_activity_admin_panel_course"
-            android:theme="@style/AppTheme" />
         <activity android:name=".HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,10 +29,50 @@
         <activity
             android:name=".LoginViewActivity"
             android:label="@string/title_attendance"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".SelctionViewActivity"
             android:label="@string/title_attendance"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FingerprintViewActivity"
+            android:label="@string/title_attendance"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".StudentActivity"
+            android:label="@string/title_activity_student"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LectureActivity"
+            android:label="@string/title_activity_lecture"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CourseActivity"
+            android:label="@string/title_activity_course"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AddUpdtStudentActivity"
+            android:label="@string/title_add_updt_student"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DeleteStudentActivity"
+            android:label="@string/title_delete_student"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ViewStudentActivity"
+            android:label="@string/title_view_student"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AddUpdtLectureActivity"
+            android:label="@string/title_add_updt_lecture"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ViewLectureActivity"
+            android:label="@string/title_view_lecture"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DeleteLectureActivity"
+            android:label="@string/title_delete_lecture"
             android:theme="@style/AppTheme"></activity>
     </application>
 
