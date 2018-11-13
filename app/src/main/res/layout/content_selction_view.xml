@@ -29,6 +29,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:inputType="date"
                 android:hint="Date"
                 app:fontFamily="@font/belgrano"/>
         </android.support.design.widget.TextInputLayout>
@@ -47,9 +48,65 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Time Period"
+                android:hint="Start Time"
+                android:inputType="time"
                 app:fontFamily="@font/belgrano"/>
         </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Course"
+                app:fontFamily="@font/belgrano"/>
+
+            <CheckBox
+                android:id="@+id/cb_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CSC311GC2"
+                app:fontFamily="@font/belgrano"/>
+
+            <CheckBox
+                android:id="@+id/cb_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CSC311SC2"
+                app:fontFamily="@font/belgrano"/>
+
+            <CheckBox
+                android:id="@+id/cb_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CSC312GC2"
+                app:fontFamily="@font/belgrano"/>
+            <CheckBox
+                android:id="@+id/cb_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CSC312SC2"
+                app:fontFamily="@font/belgrano"/>
+            <CheckBox
+                android:id="@+id/cb_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CSC313MC3"
+                app:fontFamily="@font/belgrano"/>
+            <CheckBox
+                android:id="@+id/cb_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CSC313SC3"
+                app:fontFamily="@font/belgrano"/>
+        </android.support.design.widget.TextInputLayout>
+
 
         <Button android:id="@+id/btn_complete"
             android:layout_width="fill_parent"

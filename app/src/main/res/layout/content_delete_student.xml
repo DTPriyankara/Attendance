@@ -33,12 +33,21 @@
                 app:fontFamily="@font/belgrano"/>
         </android.support.design.widget.TextInputLayout>
 
-        <Button android:id="@+id/btn_complete"
+        <Button android:id="@+id/btn_delete"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="SUBMIT"
+            android:text="DELETE"
             android:background="#2f42ba"
             android:layout_marginTop="40dp"
+            android:textColor="@android:color/white"
+            app:fontFamily="@font/belgrano"/>
+
+        <Button android:id="@+id/btn_stdView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="View"
+            android:background="#2f42ba"
+            android:layout_marginTop="20dp"
             android:textColor="@android:color/white"
             app:fontFamily="@font/belgrano"/>
 

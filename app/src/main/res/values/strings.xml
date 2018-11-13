@@ -5,7 +5,7 @@
     <string name="todo">UOJ Logo</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
-    <string name="lecture">Lecture</string>
+    <string name="lecture">Lecturer</string>
     <string name="student">Student</string>
     <string name="course">Course</string>
     <string name="right">Right</string>
@@ -23,13 +23,13 @@
     <string name="title_attendance">ATTENDANCE</string>
     <string name="title_activity_fingerprint_view">FingerprintViewActivity</string>
     <string name="title_activity_student">STUDENT</string>
-    <string name="title_activity_lecture">LECTURE</string>
+    <string name="title_activity_lecture">LECTURER</string>
     <string name="title_activity_course">COURSE</string>
     <string name="title_add_updt_student">STUDENT ADD/UPDATE</string>
     <string name="title_delete_student">STUDENT DELETE</string>
-    <string name="title_view_student">STUDENT VIEW</string>
-    <string name="title_add_updt_lecture">ADD/UPDATE LECTURE</string>
-    <string name="title_view_lecture">VIEW LECTURE</string>
-    <string name="title_delete_lecture">DELETE LECTURE</string>
+    <string name="title_view_student">VIEW STUDENT</string>
+    <string name="title_add_updt_lecture">ADD/UPDATE LECTURER</string>
+    <string name="title_view_lecture">VIEW LECTURER</string>
+    <string name="title_delete_lecture">DELETE LECTURER</string>
 
 </resources>

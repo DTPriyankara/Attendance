@@ -30,6 +30,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="@string/registration_no"
+                android:inputType="textCapWords"
                 app:fontFamily="@font/belgrano"/>
         </android.support.design.widget.TextInputLayout>
 
@@ -44,7 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="text"
+                android:inputType="textCapWords"
                 android:hint="@string/name"
                 app:fontFamily="@font/belgrano"/>
         </android.support.design.widget.TextInputLayout>
@@ -60,7 +61,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="text"
+                android:inputType="textCapWords"
                 android:hint="Level of study"
                 app:fontFamily="@font/belgrano"/>
         </android.support.design.widget.TextInputLayout>
@@ -135,9 +136,19 @@
             android:layout_height="wrap_content"
             android:text="UPDATE"
             android:background="#2f42ba"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="20dp"
             android:textColor="@android:color/white"
             app:fontFamily="@font/belgrano"/>
+
+        <Button android:id="@+id/btn_stdView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="View"
+            android:background="#2f42ba"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/white"
+            app:fontFamily="@font/belgrano"/>
+
     </LinearLayout>
 
 </RelativeLayout>

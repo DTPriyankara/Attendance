@@ -18,22 +18,34 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <Button
-                android:id="@+id/btn_lect_Add_Updt"
-                android:layout_width="match_parent"
+
+            <Button android:id="@+id/btn_lect_Add_Updt"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="ADD/UPDATE LECTURE"/>
+                android:text="ADD/UPDATE LECTURER"
+                android:background="#59c0e3"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@android:color/white"
+                app:fontFamily="@font/belgrano"/>
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <Button
-                android:id="@+id/btn_lectView"
-                android:layout_width="match_parent"
+            <Button android:id="@+id/btn_lectView"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="VIEW LECTURE"/>
+                android:text="VIEW LECTURER"
+                android:background="#59c0e3"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@android:color/white"
+                app:fontFamily="@font/belgrano"/>
+
         </android.support.design.widget.TextInputLayout>
 
 
@@ -41,11 +53,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <Button
-                android:id="@+id/btn_lectDelete"
-                android:layout_width="match_parent"
+
+            <Button android:id="@+id/btn_lectDelete"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="DELETE LECTURE"/>
+                android:text="DELETE LECTURER"
+                android:background="#59c0e3"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@android:color/white"
+                app:fontFamily="@font/belgrano"/>
         </android.support.design.widget.TextInputLayout>
 
 

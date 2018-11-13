@@ -23,8 +23,8 @@
 
             <ImageView
                 android:id="@+id/img_attend"
-                android:layout_width="180dp"
-                android:layout_height="180dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:src="@drawable/img_attendance"
                 android:layout_gravity="center"/>
 
@@ -33,7 +33,7 @@
         <Button
             android:id="@+id/btn_admin"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="50dp"
             android:text="ADMIN VIEW"
             android:layout_marginTop="50dp"
             android:textColor="#fff"
@@ -45,9 +45,9 @@
         <Button
             android:id="@+id/btn_attendance"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="50dp"
             android:text="ATTENDANCE VIEW"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:textColor="#fff"
             android:background="#0f7a9f"
             app:fontFamily="@font/belgrano"

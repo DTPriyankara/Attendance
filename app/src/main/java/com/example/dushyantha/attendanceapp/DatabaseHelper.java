@@ -2,6 +2,7 @@ package com.example.dushyantha.attendanceapp;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -42,5 +43,30 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             return false;
         else
             return true;
+    }
+
+    public Cursor getAllData(){
+        SQLiteDatabase db = this.getWritableDatabase();
+        Cursor res = db.rawQuery("select * from "+ TABLE_NAME, null);
+        return res;
+
+    }
+
+    public boolean updateData(String reg_no,String name, String level_of_study, String password){
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+
+        contentValues.put(COL_1, reg_no);
+        contentValues.put(COL_2, name);
+        contentValues.put(COL_3, level_of_study);
+        contentValues.put(COL_4, password);
+
+        db.update("TABLE_NAME",contentValues,"reg_no = ?",new String[] { reg_no });
+        return true;
+    }
+
+    public Integer deleteData (String reg_no){
+        SQLiteDatabase db = this.getWritableDatabase();
+        return db.delete(TABLE_NAME, "reg_no = ?", new String[] {reg_no});
     }
 }

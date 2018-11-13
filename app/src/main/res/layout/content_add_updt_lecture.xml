@@ -123,6 +123,15 @@
             android:layout_marginTop="40dp"
             android:textColor="@android:color/white"
             app:fontFamily="@font/belgrano"/>
+
+        <Button android:id="@+id/btn_View"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="VIEW"
+            android:background="#2f42ba"
+            android:layout_marginTop="40dp"
+            android:textColor="@android:color/white"
+            app:fontFamily="@font/belgrano"/>
     </LinearLayout>
 
 </RelativeLayout>
